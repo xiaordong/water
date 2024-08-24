@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/manager/index/cx/qs/qs",
+    "pages/manager/index/cx/stuinfo/stuinfo",
+    "pages/manager/index/cx/cx",
+    "pages/index/index",
+    "pages/news/news",
+    "pages/more/more",
+    "pages/manager/index/dj/dj",
+    "pages/manager/index/fb/fb",
+    "pages/manager/index/information/information",
+    "pages/manager/more/more",
+    "pages/more/denglu/denglu",
+    "pages/more/login/login",
+    "pages/core/jy/jy",
+    "pages/core/xf/xf",
+    "pages/core/sdf/sdf",
+    "pages/core/bx/bx",
+    "pages/core/bx/bx_detail/bx_detail",
+    "pages/core/bx/bx_lishi/bx_lishi"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffe6f2",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "水悦",
+    "backgroundColor": "#7acfa6", 
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#7f848a",
+    "selectedColor": "#7acfa6",
+    "backgroundColor": "#f7f6fb",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/index/index.png",
+      "selectedIconPath": "images/index/index@active.png"
+    }, {
+      "pagePath": "pages/news/news",
+      "text": "交易流水",
+      "iconPath": "images/index/news.png",
+      "selectedIconPath": "images/index/news@active.png"
+    }, {
+      "pagePath": "pages/more/more",
+      "text": "我的",
+      "iconPath": "images/index/more.png",
+      "selectedIconPath": "images/index/more@active.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000
+  }
+}

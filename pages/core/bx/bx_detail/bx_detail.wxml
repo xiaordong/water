@@ -1,0 +1,26 @@
+<view class="bx_detail_1">
+    <view class="bx_detail_2">
+      <text decode="{{true}}" class="bx_detail_3">申报人员</text>
+      <text decode="{{true}}" class="bx_detail_4">{{student_name}}</text>
+    </view>
+    <view class="bx_detail_7">
+      <text decode="{{true}}" class="bx_detail_8">服务类型</text>
+      <text decode="{{true}}" class="bx_detail_9">{{datalist.detail}}</text>
+    </view>
+    <view class="bx_detail_12">
+      <text decode="{{true}}" class="bx_detail_13">报修地址</text>
+      <text decode="{{true}}" class="bx_detail_14">{{datalist.dormBuilding}}</text>
+    </view>
+    <view class="bx_detail_15">
+      <text decode="{{true}}" class="bx_detail_16">联系电话</text>
+      <text decode="{{true}}" class="bx_detail_17">{{datalist.telephone}}</text>
+    </view>
+    <view class="bx_detail_21">
+      <text decode="{{true}}" class="bx_detail_23">预约时间</text>
+      <text decode="{{true}}" class="bx_detail_24">{{datalist.time}}</text>
+    </view>
+    <view class="bx_detail_30">
+      <text decode="{{true}}" class="bx_detail_31">维修进度</text>
+      <text decode="{{true}}" class="bx_detail_32">{{ datalist.status ? '已审核' : '未通过' }}</text>
+    </view>
+  </view>

@@ -1,0 +1,13 @@
+<view class="bx_lishi_1">
+  <block wx:for="{{bx_lishi}}" wx:key="ID">
+    <view class="bx_lishi_2" >
+      <text decode="{{true}}" class="bx_lishi_6">{{item.createTime}}</text>
+      <text decode="{{true}}" class="bx_lishi_3">{{item.type}}</text>
+      <text decode="{{true}}" class="bx_lishi_5">{{item.dormBuilding}}</text>
+      <view class="bx_lishi_4" style="background-color: {{item.status ? '#90ee90' : '#ff0000'}}">{{item.status ? '已审核' : '未通过' }}</view>
+      <navigator url="/pages/core/bx/bx_detail/bx_detail" bindtap="bx_lishi_2_2_click" data-item="{{item}}">
+        <image src='/images/more/enter.png' style='width:29rpx;height:44rpx;' mode="scaleToFill" border='0' class="bx_lishi_7" ></image>
+      </navigator>
+    </view>     
+  </block>
+</view>

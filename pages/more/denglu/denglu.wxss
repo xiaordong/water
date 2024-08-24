@@ -1,0 +1,19 @@
+button::after {border: none;width: auto;}
+input{outline: none;border: none;list-style: none;width: auto;}
+.list_item{float: left;}
+.ym_hide{display: none;}
+.ym_show{display: block;}
+.slide-image {  width: 100%;  height:100%;}
+.list_horizontal {width: auto; display:inline-block; }
+ .denglu_1{white-space:normal;width:752rpx;height:1400rpx;padding:0rpx;clear:both;float:left;background-color:#ffe6f2;text-align:left; border-radius:0rpx;font-size:27rpx;}
+ .denglu_1 .denglu_2{white-space:normal;width:736rpx;height:269rpx;padding:0rpx;clear:both;margin-top:16rpx;margin-left:4rpx;float:left;text-align:left; border-radius:0rpx;font-size:27rpx;}
+ .denglu_1 .denglu_2 .denglu_3{white-space:normal;width:255rpx;height:264rpx;padding:0rpx;margin-top:0rpx;margin-left:239rpx;float:left;text-align:left; border-radius:100rpx;font-size:27rpx; line-height:264rpx;}
+ .denglu_1 .denglu_22{white-space:normal;width:708rpx;height:71rpx;padding:0rpx;clear:both;margin-top:16rpx;margin-left:18rpx;float:left;text-align:center;justify-content:center; border-radius:0rpx; color:#808080;font-size:34rpx; line-height:71rpx;}
+ .denglu_1 .denglu_4{white-space:normal;width:698rpx;height:83rpx;padding:0rpx;clear:both;margin-top:213rpx;margin-left:23rpx;float:left;background-color:#ffffff;text-align:left; border-radius:10rpx;font-size:102rpx; line-height:83rpx;}
+ .denglu_1 .denglu_4 .denglu_5{white-space:normal;width:127rpx;height:71rpx;padding:0rpx;margin-top:4rpx;margin-left:13rpx;float:left;background-color:#ffffff;text-align:center;justify-content:center; border-right-color:#e5e5e5; border-right-width:3rpx; border-right-style:solid; border-radius:0rpx;font-size:41rpx; line-height:71rpx;}
+ .denglu_1 .denglu_4 .denglu_6{white-space:normal;width:536rpx;height:71rpx;padding:0rpx;margin-top:4rpx;margin-left:9rpx;float:left;background-color:#ffffff;text-align:left; border-radius:0rpx;font-size:41rpx; line-height:71rpx;}
+ .denglu_1 .denglu_13{white-space:normal;width:698rpx;height:88rpx;padding:0rpx;clear:both;margin-top:18rpx;margin-left:23rpx;float:left;background-color:#ffffff;text-align:left; border-radius:10rpx;font-size:102rpx; line-height:88rpx;}
+ .denglu_1 .denglu_13 .denglu_14{white-space:normal;width:127rpx;height:71rpx;padding:0rpx;margin-top:4rpx;margin-left:13rpx;float:left;text-align:center;justify-content:center; border-right-color:#e5e5e5; border-right-width:3rpx; border-right-style:solid; border-radius:0rpx;font-size:41rpx; line-height:71rpx;}
+ .denglu_1 .denglu_13 .denglu_15{white-space:normal;width:536rpx;height:71rpx;padding:0rpx;margin-top:4rpx;margin-left:9rpx;float:left;text-align:left; border-radius:0rpx;font-size:41rpx; line-height:71rpx;}
+ .denglu_1 .denglu_17{white-space:normal;width:708rpx;height:85rpx;padding:0rpx;clear:both;margin-top:215rpx;margin-left:18rpx;float:left;background-color:#ffaec9;text-align:center;justify-content:center; border-radius:10rpx; color:#ffffff;font-size:46rpx; line-height:85rpx;}
+ .denglu_1 .denglu_21{white-space:normal;width:708rpx;height:51rpx;padding:0rpx;clear:both;margin-top:11rpx;margin-left:18rpx;float:left;text-align:right; border-radius:0rpx; color:#2733ea;font-size:34rpx; line-height:51rpx;}

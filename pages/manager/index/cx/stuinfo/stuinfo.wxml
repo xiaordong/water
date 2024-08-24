@@ -1,0 +1,29 @@
+<view class="more_2">
+  <image bindtap="more_1_1_click" src="/images/more/mmexport1716469621699_edit_179143032414993.jpg" style=" width:713rpx;height:435rpx;" mode="scaleToFill" border="0" class="more_1">
+        
+        <navigator url="/pages/more/denglu/denglu">
+            <image bindtap="more_3_3_click" src="/images/more/denglu.png" style=" width:189rpx;height:186rpx;" mode="scaleToFill" border="0" class="more_3"></image>
+        </navigator>
+
+        <view class="more_4">
+            <text decode="{{true}}" class="more_8">姓名：{{studentInfo.student_name || ''}}</text>
+            <text decode="{{true}}" class="more_9">学号：{{studentInfo.student_id || ''}}</text>
+            <text decode="{{true}}" class="more_10">学院：{{studentInfo.student_academy || ''}}</text>
+            <text decode="{{true}}" class="more_11">楼栋：{{studentInfo.buildingNumber||''}}</text>
+            <text decode="{{true}}" class="more_21">宿舍：{{studentInfo.dormNumber || ''}}</text>
+            <text decode="{{true}}" class="more_22">电话：{{studentInfo.buildingNumber+studentInfo.dormNumber || ''}}</text>
+        </view>
+        
+    </image>
+    <view class="more_5">
+            <view class="more_6">
+                <text decode="{{true}}" class="more_12">账户余额</text>
+                <text decode="{{true}}" class="more_13">{{studentInfo.WaterCard.amount || '0.0'}}</text>
+            </view>
+            <view class="more_7">
+              <text decode="{{true}}" class="more_14">账户状态</text>
+              <text decode="{{true}}" class="more_15">{{studentInfo.status ? '正常' : (studentInfo.status === false ? '冻结' : '未登录')}}</text>
+            </view>
+        </view>
+    
+  </view>

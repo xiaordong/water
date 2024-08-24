@@ -1,0 +1,33 @@
+<view class="bx_1">
+    <view class="bx_2">
+      <text decode="{{true}}" class="bx_3">服务类型</text>
+      <view class="bx_4">
+        <input bindinput="handleInput" data-name="type" class="bx_6" placeholder="用电/用水/家具/洗衣机/空调/水管" ></input>
+        <!-- <image  src="/images/more/enter.png" style=" width:50rpx;height:61rpx;"  mode="scaleToFill" border="0"    class="bx_5"></image> -->
+      </view>
+    </view>
+    <view class="bx_7">
+      <text decode="{{true}}" class="bx_8">服务描述</text>
+      <input bindinput="handleInput" data-name="detail" class="bx_9" placeholder="请详细描述问题" ></input>
+    </view>
+    <view class="bx_12">
+      <text decode="{{true}}" class="bx_13">详细地址</text>
+      <input bindinput="handleInput" data-name="dormBuilding" class="bx_14" placeholder="请输入详细地址（楼栋/宿舍号）" ></input>
+    </view>
+    <view class="bx_15">
+      <text decode="{{true}}" class="bx_16">联系电话</text>
+      <input bindinput="handleInput" data-name="telephone" class="bx_17" placeholder="请输入联系电话" ></input>
+    </view>
+    <view class="bx_21">
+      <text decode="{{true}}" class="bx_23">预约时间</text>
+      <input bindinput="handleInput" data-name="appointmentDate" class="bx_24" placeholder="请选择维修日期" >{{startDateIndex}}</input>
+      <input bindinput="handleInput" data-name="appointmentTime" class="bx_25" placeholder="请输入具体维修时间" ></input>
+    </view>
+    <button bindtap="bx_26_26_click" class="bx_26">提 交 </button>
+    <navigator url="/pages/core/bx/bx_lishi/bx_lishi">
+      <view class="bx_27">
+      <text decode="{{true}}" class="bx_28">历史报修记录</text>
+      <image bindtap="bx_29_29_click" src="/images/more/enter.png" style=" width:45rpx;height:45rpx;"  mode="scaleToFill" border="0"    class="bx_29"></image>
+    </view>
+    </navigator>
+  </view>

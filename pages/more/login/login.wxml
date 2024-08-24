@@ -1,0 +1,33 @@
+<!-- index.wxml -->
+
+<view class="login_1">
+    <view class="login_2">
+        <image bindtap="login_3_3_click" src="/images/more/water.png" style="width:255rpx;height:264rpx;" mode="scaleToFill" border="0" class="login_3"></image>
+    </view>
+    <view class="login_4">
+        <text decode="{{true}}" class="login_5">账号</text>
+        <input bindinput="handleInput" data-name="student_id" class="login_6" placeholder="请输入学号"></input>
+    </view>
+    <view class="login_7">
+        <text decode="{{true}}" class="login_8">姓名</text>
+        <input bindinput="handleInput" data-name="student_name" class="login_9" placeholder="请输入姓名"></input>
+    </view>
+    <view class="login_21">
+        <text decode="{{true}}" class="login_22">学院</text>
+        <input bindinput="handleInput" data-name="student_academy" class="login_23" placeholder="请输入学院名称"></input>
+    </view>
+    <view class="login_10">
+        <text decode="{{true}}" class="login_11">楼栋</text>
+        <input bindinput="handleInput" data-name="buildingNumber" class="login_12" placeholder="请输入楼栋号"></input>
+    </view>
+    <view class="login_18">
+        <text decode="{{true}}" class="login_19">宿舍</text>
+        <input bindinput="handleInput" data-name="dormNumber" class="login_20" placeholder="请输入宿舍号"></input>
+    </view>
+    <view class="login_13">
+        <text decode="{{true}}" class="login_14">密码</text>
+        <input bindinput="handleInput" data-name="password" class="login_15" placeholder="请输入密码"></input>
+        <input bindinput="handleInput" data-name="confirmPassword" class="login_16" placeholder="请确认密码"></input>
+    </view>
+    <text decode="{{true}}" class="login_17" bindtap="register">确认注册</text>
+</view>

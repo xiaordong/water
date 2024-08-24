@@ -1,0 +1,29 @@
+button::after {border: none;width: auto;}
+input{outline: none;border: none;list-style: none;width: auto;}
+.list_item{float: left;}
+.ym_hide{display: none;}
+.ym_show{display: block;}
+.slide-image {  width: 100%;  height:100%;}
+.list_horizontal {width: auto; display:inline-block; }
+ .more_2{white-space:normal;width:749rpx;height:1066rpx;padding:0rpx;clear:both;float:left;background-color:#ffffff;text-align:left; border-radius:0rpx;font-size:7rpx;}
+ .more_2 .more_1{white-space:normal;width:713rpx;position: relative;height:435rpx;padding:0rpx;clear:both;margin-top:18rpx;margin-left:20rpx;float:left;text-align:left; border-radius:20rpx;font-size:7rpx; line-height:435rpx;}
+ .more_2 .more_5{white-space:normal;width:640rpx;height:125rpx;padding:0rpx;margin-top:465rpx;margin-left:36rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;background-color:#c3c3c3;text-align:left; border-radius:20rpx;font-size:7rpx;}
+ .more_2 .more_5 .more_6{white-space:normal;width:311rpx;height:96rpx;padding:0rpx;margin-top:16rpx;margin-left:15rpx;float:left;text-align:left; border-radius:0rpx;font-size:7rpx;}
+ .more_2 .more_5 .more_6 .more_12{white-space:normal;width:299rpx;height:41rpx;padding:0rpx;clear:both;margin-top:4rpx;margin-left:7rpx;float:left;text-align:center;justify-content:center; border-radius:0rpx;font-size:30rpx; line-height:41rpx;}
+ .more_2 .more_5 .more_6 .more_13{white-space:normal;width:253rpx;height:39rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:28rpx;float:left;text-align:center;justify-content:center; border-radius:0rpx;font-size:30rpx; line-height:39rpx;}
+ .more_2  .more_5 .more_7{white-space:normal;width:286rpx;height:96rpx;padding:0rpx;margin-top:15rpx;margin-left:1rpx;float:left;text-align:left; border-radius:0rpx;font-size:7rpx;}
+ .more_2  .more_5 .more_7 .more_14{white-space:normal;width:270rpx;height:41rpx;padding:0rpx;clear:both;margin-top:6rpx;margin-left:9rpx;float:left;text-align:center;justify-content:center; border-radius:0rpx;font-size:30rpx; line-height:41rpx;}
+ .more_2  .more_5 .more_7 .more_15{white-space:normal;width:240rpx;height:39rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:26rpx;float:left;text-align:center;justify-content:center; border-radius:0rpx;font-size:30rpx; line-height:39rpx;}
+ .more_2 .more_1 .more_3{white-space:normal;width:189rpx;height:186rpx;padding:0rpx;margin-top:42rpx;margin-left:39rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx;font-size:7rpx; line-height:186rpx;}
+ .more_2 .more_1 .more_4{white-space:normal;width:399rpx;position: relative;height:186rpx;padding:0rpx;margin-top:42rpx;margin-left:294rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx;font-size:7rpx;}
+ .more_2 .more_1 .more_4 .more_8{white-space:normal;width:398rpx;height:47rpx;padding:0rpx;margin-top:0rpx;margin-left:1rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx; color:#fcfffc;font-size:30rpx; line-height:47rpx;}
+ .more_2 .more_1 .more_4 .more_9{white-space:normal;width:398rpx;height:47rpx;padding:0rpx;margin-top:46rpx;margin-left:1rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx; color:#fcfffc;font-size:30rpx; line-height:47rpx;}
+ .more_2 .more_1 .more_4 .more_10{white-space:normal;width:398rpx;height:47rpx;padding:0rpx;margin-top:94rpx;margin-left:1rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; color:#fcfffc;font-size:29rpx; line-height:47rpx;}
+ .more_2 .more_1 .more_11{white-space:normal;width:398rpx;height:47rpx;padding:0rpx;margin-top:183rpx;margin-left:1rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left;color:#fcfffc;font-size:30rpx; line-height:47rpx;}
+
+ .more_2 .more_1 .more_21{white-space:normal;width:398rpx;height:47rpx;padding:0rpx;margin-top:225rpx;margin-left:1rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left;color:#fcfffc;font-size:30rpx; line-height:47rpx;}
+
+ .more_2 .more_1 .more_22{white-space:normal;width:398rpx;height:47rpx;padding:0rpx;margin-top:270rpx;margin-left:1rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left;color:#fcfffc;font-size:30rpx; line-height:47rpx;}
+
+ .more_2 .more_16{white-space:normal;width:749rpx;position: relative;height:140rpx;padding:0rpx;clear:both;margin-top:50rpx;margin-left:0rpx;float:left;text-align:left; border-bottom-color:#c4c8c7; border-bottom-width:1rpx; border-bottom-style:solid; border-top-color:#c5c9c8; border-top-width:1rpx; border-top-style:solid; border-radius:0rpx;font-size:7rpx;}
+ 

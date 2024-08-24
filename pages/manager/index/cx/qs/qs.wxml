@@ -1,0 +1,29 @@
+<view class="qs_1">
+    <view class="qs_2">
+      <view class="qs_3">
+        <image bindtap="qs_4_4_click" src="/images/core/sdf/jiachuanganpai.png" style=" width:80rpx;height:80rpx;"  mode="scaleToFill" border="0"    class="qs_4"></image>
+        <text decode="{{true}}" class="qs_5">宁静苑2舍210</text>
+      </view>
+      <view bindtap="qs_6_6_click" class="qs_6">        <image bindtap="qs_10_10_click" src="/images/core/sdf/jiachuanganpai.png" style=" width:80rpx;height:80rpx;"  mode="scaleToFill" border="0"    class="qs_10"></image>
+        <text decode="{{true}}" class="qs_14">李文茜/计算机科学与技术学院</text>
+</view>
+      <view bindtap="qs_6_7_click" class="qs_6">        
+      <image bindtap="qs_10_11_click" src="/images/core/sdf/jiachuanganpai.png" style=" width:80rpx;height:80rpx;"  mode="scaleToFill" border="0"    class="qs_10"></image>
+        <text decode="{{true}}" class="qs_14">李文茜/计算机科学与技术学院</text>
+</view>
+      <view bindtap="qs_6_8_click" class="qs_6">        
+      <image bindtap="qs_10_12_click" src="/images/core/sdf/jiachuanganpai.png" style=" width:80rpx;height:80rpx;"  mode="scaleToFill" border="0"    class="qs_10"></image>
+        <text decode="{{true}}" class="qs_14">李文茜/计算机科学与技术学院</text>
+</view>
+      <view bindtap="qs_6_9_click" class="qs_6">        
+      <image bindtap="qs_10_13_click" src="/images/core/sdf/jiachuanganpai.png" style=" width:80rpx;height:80rpx;"  mode="scaleToFill" border="0"    class="qs_10"></image>
+        <text decode="{{true}}" class="qs_14">李文茜/计算机科学与技术学院</text>
+</view>
+    </view>
+    <view class="qs_20">
+      <text decode="{{true}}" class="qs_21">剩余水电费：</text>
+      <text decode="{{true}}" class="qs_22">250</text>
+      <text decode="{{true}}" class="qs_23">元</text>
+    </view>
+    <text bindtap="qs_24_24_click" decode="{{true}}" class="qs_24">查询明细</text>
+  </view>
