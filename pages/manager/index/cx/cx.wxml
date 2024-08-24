@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="login-box">
+  <view class="cx_1">
+    <image class="logo-image" src="/images/core/sdf/jiachuanganpai.png"></image>
+    <text class="logo-dorm">宁静苑2舍{{dormbuilding}}</text>
+  </view>
+  <view class="cx_2"></view>
+    <view class="logo">寝室号查询</view>
+    
+    <input class="input-field" placeholder="请输入寝室号" bindinput="onAccountInput" />
+    
+    <button class="login-button" bindtap="onLogin">查询</button>
+  </view>
+</view>

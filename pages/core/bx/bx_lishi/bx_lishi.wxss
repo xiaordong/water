@@ -1,0 +1,20 @@
+button::after {border: none;width: auto;}
+input{outline: none;border: none;list-style: none;width: auto;}
+.list_item{float: left;}
+.ym_hide{display: none;}
+.ym_show{display: block;}
+.slide-image {  width: 100%;  height:100%;}
+.list_horizontal {width: auto; display:inline-block; }
+ .bx_lishi_1{white-space:normal;width:749rpx;height:1199rpx;padding:0rpx;clear:both;float:left;background-color:#f9faf9;text-align:left; border-radius:0rpx;font-size:7rpx;}
+ .bx_lishi_1 .bx_lishi_2{white-space:normal;width:632rpx;position: relative;height:172rpx;padding:0rpx;clear:both;margin-top:39rpx;margin-left:59rpx;float:left;background-color:#ffffff;text-align:left; border-radius:20rpx;font-size:7rpx;}
+ .bx_lishi_1 .bx_lishi_2 .bx_lishi_6{white-space:normal;width:346rpx;height:37rpx;padding:0rpx;margin-top:117rpx;margin-left:23rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx;font-size:24rpx; line-height:37rpx;}
+ .bx_lishi_1 .bx_lishi_2 .bx_lishi_3{white-space:normal;width:344rpx;height:47rpx;padding:0rpx;margin-top:24rpx;margin-left:24rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx;font-size:30rpx; line-height:47rpx;}
+ .bx_lishi_1 .bx_lishi_2 .bx_lishi_5{white-space:normal;width:344rpx;height:44rpx;padding:0rpx;margin-top:72rpx;margin-left:24rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx;font-size:30rpx; line-height:44rpx;}
+ .bx_lishi_1 .bx_lishi_2 .bx_lishi_4{white-space:normal;width:110rpx;height:35rpx;padding:0rpx;margin-top:6rpx;margin-left:516rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:center;justify-content:center; border-radius:20rpx;font-size:22rpx; line-height:35rpx;color: black;}
+ .bx_lishi_1 .bx_lishi_2 .bx_lishi_7{white-space:normal;width:29rpx;height:44rpx;padding:0rpx;margin-top:72rpx;margin-left:591rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx;font-size:43rpx; line-height:44rpx;}
+ .bx_lishi_1 .bx_lishi_8{white-space:normal;width:632rpx;position: relative;height:172rpx;padding:0rpx;clear:both;margin-top:14rpx;margin-left:59rpx;float:left;background-color:#ffffff;text-align:left; border-radius:20rpx;font-size:7rpx;}
+ .bx_lishi_1 .bx_lishi_8 .bx_lishi_12{white-space:normal;width:346rpx;height:37rpx;padding:0rpx;margin-top:117rpx;margin-left:23rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx;font-size:24rpx; line-height:37rpx;}
+ .bx_lishi_1 .bx_lishi_8 .bx_lishi_9{white-space:normal;width:344rpx;height:47rpx;padding:0rpx;margin-top:24rpx;margin-left:24rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx;font-size:30rpx; line-height:47rpx;}
+ .bx_lishi_1 .bx_lishi_8 .bx_lishi_11{white-space:normal;width:344rpx;height:44rpx;padding:0rpx;margin-top:72rpx;margin-left:24rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx;font-size:30rpx; line-height:44rpx;}
+ .bx_lishi_1 .bx_lishi_8 .bx_lishi_10{white-space:normal;width:110rpx;height:35rpx;padding:0rpx;margin-top:6rpx;margin-left:516rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;background-color:#ff0000;text-align:center;justify-content:center; border-radius:20rpx;font-size:22rpx; line-height:35rpx;}
+ .bx_lishi_1 .bx_lishi_8 .bx_lishi_13{white-space:normal;width:29rpx;height:44rpx;padding:0rpx;margin-top:72rpx;margin-left:591rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx;font-size:43rpx; line-height:44rpx;}

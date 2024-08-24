@@ -1,0 +1,26 @@
+<view class="dj_1">
+    <text decode="{{true}}" class="dj_2">水电费超额</text>
+    <view class="dj_3">
+      <view class="dj_4">
+        <text decode="{{true}}" class="dj_5">超额起始时间：</text>
+        <input placeholder=" 默认写当前时间" bindinput="dj_6_input" class="dj_6"></input>
+      </view>
+      <button bindtap="dj_7_7_click" class="dj_7">搜索
+      </button>
+    </view>
+    <navigator class="dj_8" url="/pages/manager/index/cx/qs/qs">
+      <view class="dj_9">
+        <image bindtap="dj_11_11_click" src="/images/more/denglu.png" style=" width:75rpx;height:75rpx;"  mode="scaleToFill" border="0"    class="dj_11"></image>
+        <text decode="{{true}}" class="dj_12">210</text>
+        <view class="dj_13">
+          <text decode="{{true}}" class="dj_15">-300</text>
+          <text decode="{{true}}" class="dj_14">元</text>
+        </view>
+      </view>
+      <view class="dj_9">
+        <text decode="{{true}}" class="dj_16">2024.8.20-2024.8.27</text>
+        <button bindtap="dj_17_17_click" class="dj_17">冻结
+        </button>
+      </view>
+    </navigator>
+  </view>

@@ -1,0 +1,113 @@
+<!--index.wxml-->
+<view class="container">
+  <!--功能导航-->
+  <view class="main-core">
+    <block wx:for="{{core}}" wx:key="id">
+      <navigator bindtap='main_click' class="main-core-item" url="{{'/pages/core/'+item.id+'/'+item.id}}">
+        <image class="core-item-icon" src="/images/core/{{item.id}}.png"></image>
+        <text class="core-item-name">{{item.name}}</text>
+      </navigator>
+    </block>
+  </view>
+  
+  <!--卡片列表-->
+  <view class="main-card">
+  
+    <!--一卡通-->
+    <navigator url="/pages/core/xf/xf" bindtap='main_click'>
+      <view class="main-card-item" id="xf">
+        <view class="card-item-hd">
+          <image class="card-item-icon" src="/images/core/xf.png"></image>
+          <text class="card-item-name">余额充值</text>
+        </view>
+        <view class="card-item-bd">
+          <view class="card-info-hd">
+            <view class="card-info-left">
+              <text class="ykt-title">余额：</text>
+            </view>
+            <view class="card-info-right">
+              <view>截至时间：{{last_time}}</view>
+            </view>
+          </view>
+          <view class="ykt-balance">
+            <text class="ykt-balance-value">{{studentInfo.WaterCard.amount || '0.0'}}</text>
+            <text class="ykt-balance-text">元</text>
+          </view>
+        </view>
+      </view>
+    </navigator>
+
+    <!--水电费-->
+    <view class="main-card-item" id="sdf" >
+      <navigator url="/pages/core/sdf/sdf" bindtap='main_click'>
+        <view class="card-item-hd">
+          <image class="card-item-icon" src="/images/core/sdf.png"></image>
+          <text class="card-item-name">水电费查询</text>
+        </view>
+        <view class="card-item-bd">
+          <view class="card-info-hd">
+            <view class="card-info-left">
+              <text class="card-info-name">{{studentInfo.buildingNumber+studentInfo.dormNumber}}</text>
+            </view>
+            <view class="card-info-right">
+              <view>截至时间：{{last_time}}</view>
+            </view>
+          </view>
+          <text class="sdf-hd">未缴水电费：</text>
+          <view class="sdf-bd">
+            <view class="sdf-key">
+              <text class="sdf-value">{{S_amount+D_amount || '0.0'}}</text>
+              <text class="sdf-text">元</text>
+            </view>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+
+  <!-- 通知公告 -->
+  <view class="main-card-item">
+    <!-- 顶部导航栏，可以横向滚动 -->
+    <scroll-view scroll-x="true" class="tab-h" scroll-left="{{scrollLeft}}">
+        <!-- 第一个tab，标签为"健康"，根据当前选中的tab项来判断是否添加active类 -->
+        <view class="tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="swichNav">相关消息</view>
+        <view class="tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="swichNav">通知公告</view>
+    </scroll-view>
+    
+    <!-- 内容区域，使用swiper实现tab页切换 -->
+    <swiper class="tab-content" current="{{currentTab}}" duration="300" bindchange="switchTab" style="height:{{winHeight}}rpx">
+        <!-- 遍历[0,1]数组，此处为两个tab页 -->
+        <swiper-item wx:for="{{[0,1]}}">
+            <scroll-view scroll-y="true" class="scoll-h">
+                <view class='item-ans1'>
+                    <view class="expertInfo">
+                        <view class="name">{{currentTab==0?'热水时间':'警告'}}</view>
+                        <view class="tag">{{currentTab==0?'早上：6：30-7：30':'请宿舍水电欠费超过200元的同学在一周内及时缴清欠费。一周之后还未缴费的宿舍将停止水电使用。'}}</view>
+                        <view class="tag">{{currentTab==0?'中午：11：30-14：00':'2024-06-01'}}</view>
+                        <view class="tag">{{currentTab==0?'晚上：16：30-23：30':''}}</view>
+                    </view>
+                </view>
+                <view class="item-ans2">
+                    <view class="expertInfo">
+                        <view class="name">{{currentTab==0?'常用联系电话':'今日早报'}}</view>
+                        <view class="tag">{{currentTab==0?'校医院：62460120':'天气：晴天21-30°C，同学们注意穿衣'}}</view>
+                        <view class="tag">{{currentTab==0?'维修中心：62461000':'今日头条：习近平在中共中央政治局第十四次集体学习时强调：促进高质量充分就业，不断增强广大劳动者的获得感幸福感安全感。'}}</view>
+                        <view class="tag">{{currentTab==0?'水电费中心：62487902':'2024-06-01'}}</view>
+                        <view class="tag">{{currentTab==0?'公寓中心：62481019':''}}</view>
+                        <view class="tag">{{currentTab==0?'一卡通中心：62461943':''}}</view>
+                    </view>
+                </view>
+                <view class="item-ans3">
+                    <view class="expertInfo">
+                        <view class="name">{{currentTab==0?'相关部门办公地址':'通知'}}</view>
+                        <view class="tag">{{currentTab==0?'公寓中心：明理苑2舍与明理苑3舍之间':'请同学们注意啦：今天下午4：00-5：00，一卡通中心会把水控调整为应急模式，晚上有技术人员现场指导，如有疑问请打一卡通中心电话咨询。'}}</view>
+                        <view class="tag">{{currentTab==0?'物业中心：明理苑6舍与明理苑7舍之间':'2024-05-29'}}</view>
+                        <view class="tag">{{currentTab==0?'心理中心：知行苑6舍后面':''}}</view>
+                        <view class="tag">{{currentTab==0?'一卡通中心：新行政楼负一楼B103房间':''}}</view>
+                    </view>
+                </view>
+            </scroll-view>
+        </swiper-item>
+    </swiper>
+  </view>
+</view> 

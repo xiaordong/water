@@ -1,0 +1,19 @@
+<view class="fb_1">
+    <view class="fb_2">
+      <text decode="{{true}}" class="fb_6">信息</text>
+        <image bindtap="fb_4_4_click" src="/images/manager/fb.png" style=" width:60rpx;height:60rpx;"  mode="scaleToFill" border="0"    class="fb_4"></image>
+      <text decode="{{true}}" class="fb_40">删除</text>
+    </view>
+    <navigator class="fb_3" url="/pages/manager/index/fb/fbdetail/fbdetail">
+      <image src="/images/manager/cx.png" style=" width:111rpx;height:96rpx;"  mode="scaleToFill" border="0"    class="fb_7"></image>
+      <text decode="{{true}}" class="fb_8">通知消息</text>
+    </navigator>
+    <navigator class="fb_3" url="/pages/manager/index/fb/fbdetail/fbdetail">
+      <image src="/images/manager/cx.png" style=" width:111rpx;height:96rpx;"  mode="scaleToFill" border="0"    class="fb_7"></image>
+      <text decode="{{true}}" class="fb_8">通知消息</text>
+    </navigator>
+    <navigator class="fb_3" url="/pages/manager/index/fb/fbdetail/fbdetail">
+      <image src="/images/manager/cx.png" style=" width:111rpx;height:96rpx;"  mode="scaleToFill" border="0"    class="fb_7"></image>
+      <text decode="{{true}}" class="fb_8">通知消息</text>
+    </navigator>
+  </view>

@@ -1,0 +1,15 @@
+<view class="fbinfo_1">
+    <view class="fbinfo_2">
+      <text decode="{{true}}" class="fbinfo_3">收件人:</text>
+      <input decode="{{true}}" class="fbinfo_4" placeholder="请选择"></input>
+    </view>
+    <view class="fbinfo_2">
+      <text decode="{{true}}" class="fbinfo_3">主题:</text>
+      <input decode="{{true}}" class="fbinfo_4" placeholder="请选择"></input>
+    </view>
+  </view>
+  <view class="fbinfo_8">
+    <image bindtap="fbinfo_9_9_click" src="/images/manager/jia.png" style=" width:50rpx;height:50rpx;"  mode="scaleToFill" border="0"    class="fbinfo_9"></image>
+    <input class="fbinfo_10" placeholder="   请输入内容"></input>
+    <image bindtap="fbinfo_11_11_click" src="/images/manager/upload.png" style=" width:50rpx;height:50rpx;"  mode="scaleToFill" border="0"    class="fbinfo_11"></image>
+  </view>

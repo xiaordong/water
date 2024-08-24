@@ -1,0 +1,18 @@
+<view class="denglu_1">
+  <view class="denglu_2">
+    <image bindtap="denglu_3_3_click" src="/images/more/water.png" style=" width:255rpx;height:264rpx;"  mode="scaleToFill" border="0" class="denglu_3"></image>
+  </view>
+  <text decode="{{true}}" class="denglu_22">欢迎进入水悦</text>
+  <view class="denglu_4">
+    <text decode="{{true}}" class="denglu_5">账号</text>
+    <input bindinput="handleInput" data-name="student_id" class="denglu_6" placeholder="请输入学号" ></input>
+  </view>
+  <view class="denglu_13">
+    <text decode="{{true}}" class="denglu_14">密码</text>
+    <input bindinput="handleInput" data-name="password" class="denglu_15" placeholder="请输入密码" />
+  </view>
+  <text decode="{{true}}" class="denglu_17" bindtap="login">确认登录</text>
+  <navigator url="/pages/more/login/login">
+    <text decode="{{true}}" class="denglu_21">注册</text>
+  </navigator>
+</view>

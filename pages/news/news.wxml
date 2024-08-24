@@ -1,0 +1,34 @@
+<view class="news_1">
+    <view class="news_2" style="position: absolute; left: 0rpx; top: -2rpx">
+      <view class="news_4">
+        <image bindtap="news_7_7_click" src="/images/news/cx.png" style=" width:44rpx;height:44rpx;"  mode="scaleToFill" border="0"    class="news_7"></image>
+        <text decode="{{true}}" class="news_8">查询条件</text>
+      </view>
+      <view class="news_5">
+        <picker mode="date"  end="{{checkMaxDate}}" value="{{startDateIndex}}" bindchange="bindCheckinDateChange" class="news_9">开始时间:{{startDateIndex}}</picker>
+        <text decode="{{true}}" class="news_10">——</text>
+        <picker mode="date" start="{{checkMinDate}}" value="{{endDateIndex}}" bindchange="bindCheckoutDateChange" class="news_11">结束时间:{{endDateIndex}}</picker>
+      </view>
+      <view class="news_6">
+        <button bindtap="handlePayment" class="news_12">查询</button>
+      </view>
+    </view>
+    <!-- Transaction records will be rendered here dynamically -->
+  <view class="block">
+    <block wx:for="{{transaction}}" wx:key="ConsumptionType">
+    <view class="news_13">
+        <view class="news_14">
+            <!-- 添加判断条件，根据交易类型显示不同图标 -->
+            <image src="{{item.ConsumptionType === '直饮水扣费' ? '/images/news/zhiyinshui.png' : item.ConsumptionType === '充值' ? '/images/core/xf.png' : item.ConsumptionType === '洗澡扣费' ? '/images/news/shower.png' :item.ConsumptionType === '微信扣费' ? '/images/core/xf/weixin.png':item.ConsumptionType === '水电缴费' ? '/images/core/sdf.png':''}}" style="width:38rpx;height:41rpx;" mode="scaleToFill" border="0" class="news_16"></image>
+            <text decode="{{true}}" class="news_17">{{item.ConsumptionType}}</text>
+            <text decode="{{true}}" class="news_18">{{item.Amount}}</text>
+            <text decode="{{true}}" class="news_19">{{item.left}}</text>
+        </view>
+        <view class="news_15">
+            <text decode="{{true}}" class="news_20">{{item.format_time}}</text>
+            <text decode="{{true}}" class="news_21">{{item.dormNumber}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

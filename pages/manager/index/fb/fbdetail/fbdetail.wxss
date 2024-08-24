@@ -1,0 +1,11 @@
+button::after {border: none;width: auto;}
+input{outline: none;border: none;list-style: none;width: auto;}
+.list_item{float: left;}
+.ym_hide{display: none;}
+.ym_show{display: block;}
+.slide-image {  width: 100%;  height:100%;}
+.list_horizontal {width: auto; display:inline-block; }
+ .fbdetail_1{white-space:normal;width:748rpx;height:1100rpx;padding:0rpx;clear:both;float:left;text-align:left; border-radius:0rpx;font-size:7rpx;}
+ .fbdetail_1 .fbdetail_2{white-space:normal;width:697rpx;height:550rpx;padding:0rpx;margin-top:12rpx;margin-left:26rpx;float:left;background-color:#f2f3f5;text-align:left; border-radius:25rpx;font-size:7rpx;}
+ .fbdetail_1 .fbdetail_2 .fbdetail_3{white-space:normal;width:606rpx;height:73rpx;clear:both;margin-top:30rpx;margin-left:35rpx;float:left;text-align:left; border-radius:0rpx;font-size:36rpx;}
+ .fbdetail_1 .fbdetail_2 .fbdetail_4{white-space:normal;width:606rpx;height:476rpx;padding:0rpx;clear:both;margin-top:7rpx;margin-left:35rpx;float:left;text-align:left; border-radius:0rpx;font-size:27rpx;}

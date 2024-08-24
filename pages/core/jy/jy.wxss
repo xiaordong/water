@@ -1,0 +1,22 @@
+button::after {border: none;width: auto;}
+input{outline: none;border: none;list-style: none;width: auto;}
+.list_item{float: left;}
+.ym_hide{display: none;}
+.ym_show{display: block;}
+.slide-image {  width: 100%;  height:100%;}
+.list_horizontal {width: auto; display:inline-block; }
+ .jy_1{white-space:normal;width:741rpx;height:1300rpx;padding:0rpx;clear:both;float:left;text-align:left; border-radius:0rpx;font-size:7rpx;}
+ .jy_1 .jy_2{white-space:normal;width:681rpx;height:378rpx;padding:0rpx;clear:both;margin-top:12rpx;margin-left:30rpx;float:left;background-color:#e7fbed;text-align:left; border-radius:16rpx;font-size:7rpx;}
+ .jy_1 .jy_2 .jy_3{white-space:normal;width:681rpx;height:182rpx;padding:0rpx;clear:both;margin-top:7rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:7rpx;}
+ .jy_1 .jy_2 .jy_3 .jy_5{white-space:normal;width:96rpx;height:104rpx;padding:0rpx;margin-top:59rpx;margin-left:15rpx;float:left;text-align:left; border-radius:0rpx;font-size:7rpx; line-height:104rpx;}
+ .jy_1 .jy_2 .jy_3 .jy_6{white-space:normal;width:204rpx;height:104rpx;padding:0rpx;margin-top:59rpx;margin-left:3rpx;float:left;text-align:left; border-radius:0rpx;font-size:49rpx; line-height:104rpx;}
+ .jy_1 .jy_2 .jy_3 .jy_7{white-space:normal;width:344rpx;height:104rpx;min-height:104rpx;padding:0rpx;margin-top:59rpx;margin-left:7rpx;float:left;text-align:left; border-color:#44ce7d; border-width:1rpx; border-style:solid; border-radius:20rpx;font-size:42rpx; line-height:104rpx;}
+ .jy_1 .jy_2 .jy_4{white-space:normal;width:681rpx;height:171rpx;padding:0rpx;clear:both;margin-top:10rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:7rpx;}
+ .jy_1 .jy_2 .jy_4 .jy_8{white-space:normal;width:231rpx;height:98rpx;padding:0rpx;margin-top:53rpx;margin-left:211rpx;float:left;background-color:#6cc1ec;text-align:center;justify-content:center; border-radius:20rpx;font-size:49rpx; line-height:98rpx;}
+ .jy_1 .jy_9{white-space:normal;width:726rpx;position: relative;height:270rpx;padding:0rpx;clear:both;margin-top:25rpx;margin-left:7rpx;float:left;text-align:left; border-top-color:#f0f0f0; border-top-width:1rpx; border-top-style:solid; border-radius:0rpx;font-size:7rpx;}
+ .jy_1 .jy_9 .jy_10{white-space:normal;width:197rpx;height:258rpx;padding:0rpx;margin-top:20rpx;margin-left:20rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx;font-size:7rpx; line-height:258rpx;}
+ .jy_1 .jy_9 .jy_12{white-space:normal;width:300rpx;height:58rpx;padding:0rpx;margin-top:20rpx;margin-left:268rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx;font-size:30rpx; line-height:58rpx;}
+ .jy_1 .jy_9 .jy_15{white-space:normal;width:300rpx;height:58rpx;padding:0rpx;margin-top:86rpx;margin-left:268rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx;font-size:30rpx; line-height:58rpx;}
+ .jy_1 .jy_9 .jy_18{white-space:normal;width:300rpx;height:58rpx;padding:0rpx;margin-top:152rpx;margin-left:268rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx;font-size:30rpx; line-height:58rpx;}
+ .jy_1 .jy_9 .jy_21{white-space:normal;width:400rpx;height:58rpx;padding:0rpx;margin-top:218rpx;margin-left:268rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx;font-size:30rpx; line-height:58rpx;}
+ 

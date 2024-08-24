@@ -1,0 +1,31 @@
+button::after {border: none;width: auto;}
+input{outline: none;border: none;list-style: none;width: auto;}
+.list_item{float: left;}
+.ym_hide{display: none;}
+.ym_show{display: block;}
+.slide-image {  width: 100%;  height:100%;}
+.list_horizontal {width: auto; display:inline-block; }
+ .login_1{white-space:normal;width:752rpx;height:1365rpx;padding:0rpx;clear:both;float:left;background-color:#ffe6f2;text-align:left; border-radius:0rpx;font-size:27rpx;}
+ .login_1 .login_2{white-space:normal;width:736rpx;height:269rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:4rpx;float:left;text-align:left; border-radius:0rpx;font-size:27rpx;}
+ .login_1 .login_2 .login_3{white-space:normal;width:255rpx;height:264rpx;padding:0rpx;margin-top:15rpx;margin-left:239rpx;float:left;text-align:left; border-radius:100rpx;font-size:27rpx; line-height:264rpx;}
+ .login_1 .login_4{white-space:normal;width:698rpx;height:83rpx;padding:0rpx;clear:both;margin-top:44rpx;margin-left:23rpx;float:left;background-color:#ffffff;text-align:left; border-radius:10rpx;font-size:102rpx; line-height:83rpx;}
+ .login_1 .login_4 .login_5{white-space:normal;width:127rpx;height:71rpx;padding:0rpx;margin-top:4rpx;margin-left:13rpx;float:left;background-color:#ffffff;text-align:center;justify-content:center; border-right-color:#e5e5e5; border-right-width:3rpx; border-right-style:solid; border-radius:0rpx;font-size:41rpx; line-height:71rpx;}
+ .login_1 .login_4 .login_6{white-space:normal;width:536rpx;height:71rpx;padding:0rpx;margin-top:4rpx;margin-left:9rpx;float:left;background-color:#ffffff;text-align:left; border-radius:0rpx;font-size:41rpx; line-height:71rpx;}
+ .login_1 .login_7{white-space:normal;width:698rpx;height:78rpx;padding:0rpx;clear:both;margin-top:11rpx;margin-left:23rpx;float:left;background-color:#ffffff;text-align:left; border-radius:10rpx;font-size:102rpx; line-height:78rpx;}
+ .login_1 .login_7 .login_8{white-space:normal;width:127rpx;height:71rpx;padding:0rpx;margin-top:4rpx;margin-left:13rpx;float:left;text-align:center;justify-content:center; border-right-color:#e5e5e5; border-right-width:3rpx; border-right-style:solid; border-radius:0rpx;font-size:41rpx; line-height:71rpx;}
+ .login_1 .login_7 .login_9{white-space:normal;width:536rpx;height:71rpx;padding:0rpx;margin-top:4rpx;margin-left:9rpx;float:left;text-align:left; border-radius:0rpx;font-size:41rpx; line-height:71rpx;}
+ .login_1 .login_21{white-space:normal;width:698rpx;height:78rpx;padding:0rpx;clear:both;margin-top:9rpx;margin-left:23rpx;float:left;background-color:#ffffff;text-align:left; border-radius:10rpx;font-size:102rpx; line-height:78rpx;}
+ .login_1 .login_21 .login_22{white-space:normal;width:127rpx;height:71rpx;padding:0rpx;margin-top:4rpx;margin-left:13rpx;float:left;text-align:center; border-radius:0rpx;font-size:41rpx; line-height:71rpx;justify-content:center; border-right-color:#e5e5e5;border-right-width:3rpx; border-right-style:solid; border-radius:0rpx}
+ .login_1 .login_21 .login_23{white-space:normal;width:536rpx;height:71rpx;padding:0rpx;margin-top:4rpx;margin-left:9rpx;float:left;text-align:left; border-radius:0rpx;font-size:41rpx; line-height:71rpx}
+
+ .login_1 .login_10{white-space:normal;width:698rpx;height:83rpx;padding:0rpx;clear:both;margin-top:11rpx;margin-left:23rpx;float:left;background-color:#ffffff;text-align:left; border-radius:10rpx;font-size:102rpx; line-height:83rpx;}
+ .login_1 .login_10 .login_11{white-space:normal;width:127rpx;height:71rpx;padding:0rpx;margin-top:6rpx;margin-left:13rpx;float:left;text-align:center;justify-content:center; border-right-color:#e5e5e5; border-right-width:3rpx; border-right-style:solid; border-radius:0rpx;font-size:41rpx; line-height:71rpx;}
+ .login_1 .login_10 .login_12{white-space:normal;width:536rpx;height:71rpx;padding:0rpx;margin-top:6rpx;margin-left:9rpx;float:left;text-align:left; border-radius:0rpx;font-size:41rpx; line-height:71rpx;}
+ .login_1 .login_18{white-space:normal;width:698rpx;height:83rpx;padding:0rpx;clear:both;margin-top:13rpx;margin-left:23rpx;float:left;background-color:#ffffff;text-align:left; border-radius:10rpx;font-size:102rpx; line-height:83rpx;}
+ .login_1 .login_18 .login_19{white-space:normal;width:127rpx;height:71rpx;padding:0rpx;margin-top:6rpx;margin-left:13rpx;float:left;text-align:center;justify-content:center; border-right-color:#e5e5e5; border-right-width:3rpx; border-right-style:solid; border-radius:0rpx;font-size:41rpx; line-height:71rpx;}
+ .login_1 .login_18 .login_20{white-space:normal;width:536rpx;height:71rpx;padding:0rpx;margin-top:6rpx;margin-left:9rpx;float:left;text-align:left; border-radius:0rpx;font-size:41rpx; line-height:71rpx;}
+ .login_1 .login_13{white-space:normal;width:698rpx;position: relative;height:167rpx;padding:0rpx;clear:both;margin-top:11rpx;margin-left:23rpx;float:left;background-color:#ffffff;text-align:left; border-radius:10rpx;font-size:102rpx; line-height:167rpx;}
+ .login_1 .login_13 .login_14{white-space:normal;width:127rpx;height:153rpx;padding:0rpx;margin-top:4rpx;margin-left:13rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:center;justify-content:center; border-right-color:#e5e5e5; border-right-width:3rpx; border-right-style:solid; border-radius:0rpx;font-size:41rpx; line-height:153rpx;}
+ .login_1 .login_13 .login_15{white-space:normal;width:536rpx;height:71rpx;padding:0rpx;margin-top:4rpx;margin-left:150rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx;font-size:41rpx; line-height:71rpx;}
+ .login_1 .login_13 .login_16{white-space:normal;width:536rpx;height:71rpx;padding:0rpx;margin-top:85rpx;margin-left:150rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-top-color:#c0c0c0; border-top-width:1rpx; border-top-style:solid; border-radius:0rpx;font-size:41rpx; line-height:71rpx;}
+ .login_1 .login_17{white-space:normal;width:708rpx;height:85rpx;padding:0rpx;clear:both;margin-top:169rpx;margin-left:18rpx;float:left;background-color:#ffaec9;text-align:center;justify-content:center; border-radius:10rpx; color:#ffffff;font-size:46rpx; line-height:85rpx;}

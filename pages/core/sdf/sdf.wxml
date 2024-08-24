@@ -1,0 +1,55 @@
+<view class="sdf_1">
+    <view class="sdf_2">
+      <view class="sdf_3">
+        <image bindtap="sdf_6_6_click" src="/images/core/sdf/sushe.png" style=" width:77rpx;height:72rpx;"  mode="scaleToFill" border="0"    class="sdf_6"></image>
+        <text decode="{{true}}" class="sdf_7">{{dormbuilding}}</text>
+      </view>
+      <view class="sdf_4">
+        <image bindtap="sdf_8_8_click" src="/images/core/sdf/yhuan.png" style=" width:65rpx;height:65rpx;"  mode="scaleToFill" border="0"    class="sdf_8"></image>
+        <text decode="{{true}}" class="sdf_9">未缴电费</text>
+        <view class="sdf_10">
+          <text decode="{{true}}" class="sdf_14">{{ElectricFee}}</text>
+          <text decode="{{true}}" class="sdf_15">元</text>
+        </view>
+      </view>
+      <view class="sdf_5">
+        <image bindtap="sdf_11_11_click" src="/images/core/sdf/yhuan.png" style=" width:65rpx;height:65rpx;"  mode="scaleToFill" border="0"    class="sdf_11"></image>
+        <text decode="{{true}}" class="sdf_12">未缴水费</text>
+        <view class="sdf_16">
+          <text decode="{{true}}" class="sdf_17">{{WaterFee}}</text>
+          <text decode="{{true}}" class="sdf_18">元</text>
+        </view>
+      </view>
+    </view>
+    <view class="sdf_19">
+      <image bindtap="sdf_20_20_click" src="/images/core/sdf/yhuan.png" style=" width:49rpx;height:50rpx;"  mode="scaleToFill" border="0"    class="sdf_20"></image>
+      <text decode="{{true}}" class="sdf_21">合计水电费</text>
+      <text decode="{{true}}" class="sdf_22">{{ElectricFee+WaterFee}}元</text>
+    </view>
+    <view class="sdf_23">
+      <image bindtap="sdf_24_24_click" src="/images/core/sdf/yhuan.png" style=" width:49rpx;height:50rpx;"  mode="scaleToFill" border="0"    class="sdf_24"></image>
+      <text decode="{{true}}" class="sdf_25">电价</text>
+      <text decode="{{true}}" class="sdf_26">0.540元/度</text>
+    </view>
+    <view class="sdf_27">
+      <image bindtap="sdf_28_28_click" src="/images/core/sdf/yhuan.png" style=" width:49rpx;height:50rpx;"  mode="scaleToFill" border="0"    class="sdf_28"></image>
+      <text decode="{{true}}" class="sdf_29">水价</text>
+      <text decode="{{true}}" class="sdf_30">5.55元/吨</text>
+    </view>
+    <view class="sdf_35">
+      <text decode="{{true}}" class="sdf_37">本次缴费：</text>
+      <input bindinput="handleInput" data-name="Amount" class="sdf_38" placeholder="请输入金额"></input>
+    </view>
+    <view class="sdf_36">
+      <text decode="{{true}}" class="sdf_42">•缴费方式：</text>
+    </view>
+    <view class="sdf_40">
+      <image bindtap="sdf_45_45_click" src="{{currentimage1}}" style=" width:56rpx;height:55rpx;"  mode="scaleToFill" border="0"    class="sdf_45"></image>
+      <text decode="{{true}}" class="sdf_41">余额缴费</text>
+    </view>
+    <view class="sdf_43">
+      <image bindtap="sdf_47_47_click" src="{{currentimage2}}" style=" width:56rpx;height:53rpx;"  mode="scaleToFill" border="0"    class="sdf_47"></image>
+      <text decode="{{true}}" class="sdf_44">微信缴费</text>
+    </view>
+    <button bindtap="handlePayment" class="xf_21">确定缴费</button>
+  </view>

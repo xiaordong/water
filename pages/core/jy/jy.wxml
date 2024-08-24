@@ -1,0 +1,21 @@
+<view class="jy_1">
+    <view class="jy_2">
+      <view class="jy_3">
+        <image bindtap="jy_5_5_click" src="/images/core/jy.png" style=" width:96rpx;height:104rpx;"  mode="scaleToFill" border="0"    class="jy_5"></image>
+        <text decode="{{true}}" class="jy_6">楼栋号：</text>
+        <input bindinput="inputChange" data-name="buildingNumber" class="jy_7" placeholder="请输入楼栋号" placeholder-style="color: #999;"></input>
+      </view>
+      <view class="jy_4">
+        <button bindtap="jy_8_8_click" class="jy_8">查询</button>
+      </view>
+    </view>
+    <view class="jy_9" wx:for="{{admins}}" wx:key="ad_id">
+      <image bindtap="jy_10_10_click" src="/images/core/jy.png" style=" width:197rpx;height:258rpx;"  mode="scaleToFill" border="0"    class="jy_10"></image>
+      <text decode="{{true}}" class="jy_12">姓名：{{item.admin_name}}</text>
+      <text decode="{{true}}" class="jy_15">编号：{{item.admin_id}}</text>
+      <text decode="{{true}}" class="jy_18">电话：{{item.admin_phone}}</text>
+      <text decode="{{true}}" class="jy_21">值班时间:{{item.working_time}}</text>
+      
+    </view>
+    
+  </view>

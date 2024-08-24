@@ -1,0 +1,41 @@
+<view class="xf_1">
+    <view class="xf_2">
+      <view class="xf_3">
+        <text decode="{{true}}" class="xf_6">充值</text>
+      </view>
+      <view class="xf_4" >
+        <button bindtap="tap_20" data-name="amount" class="xf_5" style="background-color:{{color20}}">充值20元</button>
+        <button bindtap="tap_100" data-name="amount" class="xf_9" style="background-color:{{color100}}">充值100元</button>
+        <button bindtap="tap_50" data-name="amount" class="xf_8" style="background-color:{{color50}}">充值50元</button>
+        <input bindinput="handleInput" data-name="Amount" class="xf_10" placeholder="自定义"></input>
+      </view>
+    </view>
+    <view class="xf_11">
+      <text decode="{{true}}" class="xf_12">充值方式</text>
+    </view>
+    <view class="xf_13">
+      <image bindtap="xf_14_14_click" src="/images/core/xf/zhifuba.png" style=" width:41rpx;height:46rpx;"  mode="scaleToFill" border="0"    class="xf_14"></image>
+      <text decode="{{true}}" class="xf_15" bindinput="handleInput" data-name="type">支付宝</text>
+      <image bindtap="xf_16_16_click" src="{{currentimage1}}" style=" width:64rpx;height:52rpx;"  mode="scaleToFill" border="0"  class="xf_16"></image>
+    </view>
+    <view class="xf_17">
+      <image bindtap="xf_18_18_click" src="/images/core/xf/weixin.png" style=" width:41rpx;height:46rpx;"  mode="scaleToFill" border="0"    class="xf_18"></image>
+      <text decode="{{true}}" class="xf_19" bindinput="handleInput" data-name="type">微信</text>
+      <image bindtap="xf_20_20_click" src="{{currentimage2}}" style=" width:64rpx;height:52rpx;"  mode="scaleToFill" border="0"    class="xf_20"></image>
+    </view>
+    <view class="xf_22">
+      <view class="xf_26">
+        <text decode="{{true}}" class="xf_27">学号：</text>
+        <input bindinput="handleInput" data-name="student_id" class="xf_28" placeholder="请输入学号"></input>
+      </view>
+      <view class="xf_23">
+        <text decode="{{true}}" class="xf_24">姓名：</text>
+        <input bindinput="handleInput" data-name="student_name" class="xf_25" placeholder="请输入姓名"></input>
+      </view>
+      <view class="xf_29">
+        <text decode="{{true}}" class="xf_30">楼栋/宿舍：</text>
+        <input bindinput="handleInput" data-name="dormbuilding" class="xf_31" placeholder="请输入楼栋/宿舍号"></input>
+      </view>
+    </view>
+    <button bindtap="handlePayment" class="xf_21">确定支付</button>
+  </view>
